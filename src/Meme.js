@@ -3,6 +3,8 @@ const Meme = () => {
         e.preventDefault()
         fetch()
     }
+
+    const arr = ['HI', 'HELLO']
   return (
     <form>
       <div className="memecontent">
@@ -10,6 +12,7 @@ const Meme = () => {
         <input type="text" className="bottom"/>
       </div>
       <button onClick={handleClick}>Generate Meme 😎</button>
+      <ul>{arr}</ul>
     </form>
   );
 };
